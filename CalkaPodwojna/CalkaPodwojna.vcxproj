@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{D953C389-3527-4C01-84C1-2AF258CC54AF}</ProjectGuid>
+    <ProjectGuid>{D7869BD5-C9DA-4F47-BDE7-2D0A5B9AD9F3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Calka</RootNamespace>
+    <RootNamespace>CalkaPodwojna</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -152,7 +152,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calka.cpp" />
+    <ClCompile Include="CalkaPodwojna.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
